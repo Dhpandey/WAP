@@ -1,0 +1,124 @@
+body{
+    background-image: url("images/background.png");
+    font-size: 8pt;
+    font-family: Verdana, Tahoma,sans-serif;
+    margin: 0;
+    padding:0;
+    border:0;
+    position: relative;
+}
+html,body,#contents{
+    height: 100%;
+}
+#bgHeader{
+    background-image: url("images/bannerbg.png");
+}
+#bgHeader>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-size:24pt;
+    font-family:  Tahoma,Verdana,sans-serif;
+    font-weight: bold;
+    text-shadow: 3px 3px #999999;
+    text-align: center;
+}
+#contents{
+    position:relative;
+    border: 4px gray solid;
+    border-radius: 20px;
+    width: 800px;   
+    margin-left: auto;
+    margin-right: auto;
+    height:985px;
+}
+#footer{
+    float:right;
+    margin-top: -70px;
+    opacity: 0.5;
+}
+
+#overview{
+    float: right;  
+    right: 0;
+}
+#overview>img{
+    border-radius:0 16px 0 0;
+}
+#content-left{
+    float:left;
+    width: 550px;
+}   
+#content-right{
+    float:right;
+    width: 250px; 
+}
+#content-left-top{
+    height: 83px;
+    background-image: url("images/rbg.png");
+    border-radius:16px 0 0 0; 
+}
+
+#content-left img{
+    border-radius:16px 0 0 0;
+}
+#numeric-value{
+    font-size: 48px;
+    color: red;
+    font-weight: bold;
+    margin-top: 15px;
+   position: absolute;
+    margin-left:10px; 
+}
+.bottomRight{
+    background-color:#A2B964;
+    font-size: 8pt;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+.bottomRight dl dt{
+    padding-top: 10pt;
+    padding-left: 5pt;
+    padding-right:5pt;
+}
+#content-left1{
+    padding-left:8px; 
+    float:left;
+    width: 47%
+}
+#content-left-right1{
+    padding-right: 8px;
+    float:right;
+    width: 47%;
+}
+#bottomContent{
+    position: absolute;
+    bottom:0;
+    background-color:#A2B964;
+    width: 800px;
+    border-radius: 0 0 16px 16px;
+    text-align: center;
+}
+.boxed{
+    font-weight:bold;
+    font-size: 8pt;
+    border: 2px solid gray;
+    background-color:#E8DC9B;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 8px;
+    padding-left:8px;
+    padding-right: 8px;
+    padding-top: 8px;
+}
+.post{
+    padding-bottom: 20px;
+    font-style: italic;
+}
+.post img{
+    float:left;
+}
+
+
+
