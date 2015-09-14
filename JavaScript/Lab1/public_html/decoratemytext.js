@@ -30,12 +30,12 @@
     function blingClick() {                 //checkbox event function
         if (document.getElementById('bling').checked) {
 //            var text = getvalue().style.fontWeight = "bold";
-            var text = getvalue().className = "textStyle1";
+            var text = getvalue().className += "textStyle1";
             document.body.className = "bgImage";
         }
         else {
             document.body.className = "";
-            var text = getvalue().className = "textStyle2";
+            var text = getvalue().className += "textStyle2";
         }
     }
     window.onload = function () {                //onload event
