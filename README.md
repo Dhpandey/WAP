@@ -1,3 +1,3 @@
 # WAP
 Web application programing,
-includes basic on html5, css,php, database, session and regular expressions.
+Includes basic on html5, css,php, database, session,Javascript,jquery,ajax and regular expressions.
